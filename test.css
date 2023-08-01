@@ -1,0 +1,55 @@
+#bodywrap{
+    border: 5px red solid;
+    height: 800px;
+    background: #ccc;
+    
+}
+#header{
+    border: 5px blue solid;
+    display: flex;
+    float: top;
+    height: 100px;
+}
+#box1{
+    border: 5px black solid;
+    display: flex;
+    height: 650px;
+    width: 60%;
+    float: left;
+    
+}
+#box2{
+    border: 5px yellow solid;
+    float: left;
+    height: 650px;
+    width: 37%;
+    display: flex;
+}
+.header-links{
+    border: 5px purple solid;
+    height: fit-content;
+    margin-left: 500px;
+    
+    display: flex;
+    
+}
+.imgcontain1{
+    border: 5px purple solid;
+    height: 200px;
+    width: 500px;
+    float: left;
+    
+
+}
+.imgcontain2{
+    border: 5px blue solid;
+    height: 200px;
+    width: 500px;
+    float: left;
+    clear: left;
+    
+}
+.imgcontain1, .imgcontain2{
+    display: flex;
+    flex-direction: row;
+}
